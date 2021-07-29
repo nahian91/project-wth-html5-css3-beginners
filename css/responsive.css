@@ -1,0 +1,146 @@
+/* Checking Size: 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .area {
+    width: 970px;
+  }
+  .menu {
+    width: 650px;
+  }
+  .single-service {
+    width: 303px;
+  }
+  .service-page .single-service {
+    width: 293px;
+  }
+  .single-service:nth-child(4),
+  .single-service:last-child {
+    margin-right: 30px !important;
+  }
+  .single-gallery {
+    width: 220px;
+  }
+  .about-left {
+    width: 685px;
+  }
+  .about-menu {
+    width: 255px;
+  }
+  .about-left h4,
+  .about-menu h4 {
+    font-size: 26px;
+  }
+  .contact-form {
+    width: 610px;
+  }
+  .contact-form h4,
+  .contact-address h4 {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+  .single-gallery {
+    width: 165px;
+  }
+}
+
+/* Checking Size: 800px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .area {
+    width: 750px;
+  }
+  .logo {
+    width: 180px;
+  }
+  .menu {
+    width: 500px;
+  }
+  .menu ul {
+    margin-top: 3px;
+  }
+  .menu ul li a {
+    padding: 10px;
+  }
+  .single-service {
+    width: 240px;
+    margin-right: 15px;
+  }
+  .single-service h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .about-left {
+    width: 540px;
+    margin-right: 20px;
+  }
+  .about-menu {
+    width: 190px;
+  }
+  .about-left h4,
+  .about-menu h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .contact-address {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .service-page .single-service {
+    width: 240px;
+  }
+  .service-page .single-service:nth-child(3),
+  .service-page .single-service:nth-child(6),
+  .service-page .single-service:nth-child(9) {
+    margin-right: 0;
+  }
+  .service-page .single-service:nth-child(4) {
+    margin-right: 15px !important;
+  }
+}
+
+/* Checking Size: 400px */
+@media only screen and (max-width: 767px) {
+  .area {
+    width: 320px;
+  }
+  .menu,
+  .about-left,
+  .about-menu {
+    width: 100%;
+  }
+  .about-left {
+    margin-bottom: 30px;
+  }
+  .menu ul {
+    text-align: left;
+  }
+  .title h4 {
+    font-size: 28px;
+    margin: 25px 0;
+  }
+  .single-service {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-left h4,
+  .about-menu h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .service-page .single-service,
+  .single-gallery {
+    width: 100%;
+  }
+  .page-banner h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .contact-address {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .area {
+    width: 450px;
+  }
+}
